@@ -1,15 +1,5 @@
 @charset "UTF-8";
-/*!
-* Start Bootstrap - Agency v6.0.3 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2020 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
-*/
-/*!
- * Bootstrap v4.5.3 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
- */
+
 
 
 
@@ -62,14 +52,18 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    /* background: src="assets/img/film.mov"; */
+    background: url('https://source.unsplash.com/collection/190727/1600x900') #030f1d no-repeat center center scroll;
     /* background: url(' assets/img/film.mov') black no-repeat center center scroll; */
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') darkblue no-repeat center center scroll;
-  }
+    /* background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') darkblue no-repeat center center scroll; */
+    /* background: src= 'assets/img/anaia633.png' #030f1d no-repeat center center scroll; */
+  } 
   header video {
     display: none;
   }
 }
+
+
+ 
  
 
 /* fin header video */
