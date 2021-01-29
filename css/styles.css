@@ -48,11 +48,15 @@ header .overlay {
   /* background-color:rgba(255, 123, 0, 0.808); */
   opacity: 0.5;
   z-index: 1;
-}
+} 
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('https://source.unsplash.com/collection/190727/1600x900') #030f1d no-repeat center center scroll;
+   
+    background: url('https://source.unsplash.com/collection/973175/1600x900') #030f1d no-repeat center center scroll;
+    /* background: url('https://source.unsplash.com/collection/190727/1600x900') #030f1d no-repeat center center scroll; */
+
+    
     /* background: url(' assets/img/film.mov') black no-repeat center center scroll; */
     /* background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') darkblue no-repeat center center scroll; */
     /* background: src= 'assets/img/anaia633.png' #030f1d no-repeat center center scroll; */
