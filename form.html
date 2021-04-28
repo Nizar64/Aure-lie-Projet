@@ -12,8 +12,8 @@
 
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container"><br/><br/><br/>
-      <a class="navbar-brand" href="index.html">&larr;retour
-      </a>
+      <!-- <a class="navbar-brand" href="index.html">&larr;retour
+      </a> -->
      
     </div>
   </nav>
@@ -25,7 +25,9 @@
 <!-- partial:index.partial.html -->
 <div class="container">  
   <form id="contact" action="post"  data-netlify="true">
-    <h1> CONTACT </h1>
+    <!-- <h1> CONTACT </h1> -->
+    <a class="navbar-brand" href="index.html"><h1>&larr;Précédent</h1>
+    </a>
     
     <fieldset>
       <input placeholder="votre Nom" type="text" name="name"  tabindex="1" required autofocus>
@@ -34,10 +36,10 @@
       <input placeholder="Votre Email " type="email" name="email" tabindex="2" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Votre téléphone (optional)" type="tel" tabindex="3" >
+      <input placeholder="Votre téléphone (facultatif)" type="tel" tabindex="3" >
     </fieldset>
     <fieldset>
-      <input placeholder="Votre site Web  (optional)" type="url" tabindex="4" >
+      <input placeholder="Votre site Web  (facultatif)" type="url" tabindex="4" >
     </fieldset>
     <fieldset>
       <textarea placeholder="Tapez votre message ici...." name="message" id="message"   tabindex="5" required></textarea>
@@ -47,9 +49,9 @@
     </fieldset>
 
     
-    <fieldset>
+    <!-- <fieldset>
       <div data-netlify-recaptcha="true"></div>
-    </fieldset>
+    </fieldset> -->
    
     <!-- <p class="copyright">Designed by <a href=" " target="_blank" title="Colorlib">ND ART CRÉATIONS</a></p> -->
   </form>

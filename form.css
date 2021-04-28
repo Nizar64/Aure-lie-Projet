@@ -14,12 +14,13 @@
 
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  font-size: 12px;
-  line-height: 30px;
+  font-weight: 120;
+  font-size: 22px;
+  line-height: 50px;
   color: #777;
   /* background: #4CAF50; */
   background-image: url("./css/pl8.png");
+  background-repeat: no-repeat;
 }
 
 .container {
