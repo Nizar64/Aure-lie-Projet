@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> Contact </title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'><link rel="stylesheet" href="./form.css">
+
+</head>
+<body>
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container"><br/><br/><br/>
+      <a class="navbar-brand" href="index.html">&larr;retour
+      </a>
+     
+    </div>
+  </nav>
+
+
+
+
+
+<!-- partial:index.partial.html -->
+<div class="container">  
+  <form id="contact" action="post"  data-netlify="true">
+    <h1> CONTACT </h1>
+    
+    <fieldset>
+      <input placeholder="votre Nom" type="text" name="name"  tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Votre Email " type="email" name="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Votre téléphone (optional)" type="tel" tabindex="3" >
+    </fieldset>
+    <fieldset>
+      <input placeholder="Votre site Web  (optional)" type="url" tabindex="4" >
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Tapez votre message ici...." name="message" id="message"   tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" >Envoyer</button>
+    </fieldset>
+
+    
+    <fieldset>
+      <div data-netlify-recaptcha="true"></div>
+    </fieldset>
+   
+    <!-- <p class="copyright">Designed by <a href=" " target="_blank" title="Colorlib">ND ART CRÉATIONS</a></p> -->
+  </form>
+</div>
+<!-- partial -->
+<script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+</body>
+</html>
