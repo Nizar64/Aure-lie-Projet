@@ -53,7 +53,7 @@ header .overlay {
 @media (pointer: coarse) and (hover: none) {
   header {
 
-    background: url("pl8.png") #030f1d no-repeat center center scroll;
+    /* background: url("pl8.png") #030f1d no-repeat center center scroll; */
     /* background: url('https://source.unsplash.com/collection/973175/1600x900') #030f1d no-repeat center center scroll; */
     /* background: url('https://source.unsplash.com/collection/190727/1600x900') #030f1d no-repeat center center scroll; */
 
@@ -63,8 +63,9 @@ header .overlay {
     /* background: src= 'assets/img/anaia633.png' #030f1d no-repeat center center scroll; */
   } 
   header video {
-    display: none;
+    display: block;
   }
+  
 }
 
 
@@ -595,6 +596,16 @@ template {
 @media all and (max-width:480px){
  
  
+ .d-flex{
+   margin-top: 50%;
+ }
+ 
+  .w-100 {
+   margin-top: -20%;
+ } 
+ /* .img-fluid{
+   display: none;
+ } */
 .gallery-box {
   padding-top: 30px;
   float: none;
@@ -650,7 +661,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   
 }
 
@@ -699,7 +710,7 @@ h6, .h6 {
 }
 
 .display-4 {
-  font-size: 3.5rem;
+  font-size: 1.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
