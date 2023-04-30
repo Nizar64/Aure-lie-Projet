@@ -51,7 +51,7 @@ header .overlay {
 } 
 
 @media (pointer: coarse) and (hover: none) {
-  header {
+  /* header { */
 
     /* background: url("pl8.png") #030f1d no-repeat center center scroll; */
     /* background: url('https://source.unsplash.com/collection/973175/1600x900') #030f1d no-repeat center center scroll; */
@@ -61,12 +61,12 @@ header .overlay {
     /* background: url(' assets/img/film.mov') black no-repeat center center scroll; */
     /* background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') darkblue no-repeat center center scroll; */
     /* background: src= 'assets/img/anaia633.png' #030f1d no-repeat center center scroll; */
-  } 
+  /* }  */
   header video {
     display: block;
   }
-  
-}
+} 
+
 
 
  
@@ -430,6 +430,7 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  max-width: 100%;
 }
 
 svg {
@@ -501,7 +502,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
+  appearance: button;
  
 }
 
@@ -561,7 +562,7 @@ progress {
 
 [type=search] {
   outline-offset: -2px;
-  -webkit-appearance: none;
+  appearance: none;
 }
 
 [type=search]::-webkit-search-decoration {
@@ -3764,8 +3765,8 @@ input[type=button].btn-block {
   display: block;
   min-height: 1.5rem;
   padding-left: 1.5rem;
-  -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+  -print-color-adjust: exact;
+  -color-adjust: exact;
 }
 
 .custom-control-inline {
@@ -10921,3 +10922,91 @@ section#contact form#contactForm :-ms-input-placeholder {
   /* font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   font-family: 'Lobster', cursive;
 }
+
+
+
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$___CCS__NEW__MENU__2023___$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+
+
+
+/* .menu-body {
+  max-width: 840px;
+  margin: 0 auto;
+  display: block;
+  color: rgb(255, 255, 255);
+  background-color: rgb(7, 7, 17);
+}
+.logo-carte-menu{
+  display: block;
+  
+}
+.menu-section {
+  margin-bottom: 80px;
+}
+
+.menu-section-title {
+  font-family: georgia;
+  font-size: 30px;
+  display: block;
+  font-weight:normal;
+  margin: 20px 0; 
+  text-align: Center;
+  color: white;
+  
+}
+
+.menu-item {
+  margin: 35px 0;
+  font-size: 18px;
+}
+
+.menu-item-name{
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted rgb(213, 213, 213);
+  margin-left: 5%;
+  margin-right: 13%;
+  
+}
+
+.menu-item-description {
+  font-style: italic;
+  font-size: .9em;
+  line-height: 1.5em;
+  margin-left: 7%;
+}
+
+.menu-item-description-salade {
+  font-style: italic;
+  font-size: .9em;
+  line-height: 1.5em;
+  margin-left: 5%;
+  margin-top: -8%;
+}
+
+
+.menu-item-price{
+  float: right;
+  
+  font-family: arial;
+  margin-top: -22px;
+  margin-right:5%;
+  font-size: 1.3em;
+  
+}
+
+@media screen and (max-width: 414px){
+  .menu-item-description-salade {
+    font-style: italic;
+    font-size: .9em;
+    line-height: 1.5em;
+    margin-left: 5%;
+    margin-top: -35%;
+  }
+
+} */
+
+
+	 /**********************************__END_____CCS__NEW__MENU__2023___****************************************************** -->
+	<!-- /**************************************************************************************** -->
